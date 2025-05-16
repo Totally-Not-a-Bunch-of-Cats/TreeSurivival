@@ -277,7 +277,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -8.16}
+  m_LocalPosition: {x: 0, y: 1, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -717,7 +717,7 @@ Transform:
   m_GameObject: {fileID: 1876006527}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -814,6 +814,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 332277612701875667, guid: ace8b4932495c404bb0a49b8cad60970,
+        type: 3}
+      propertyPath: m_Name
+      value: Background fill
+      objectReference: {fileID: 0}
     - target: {fileID: 2678897512643621341, guid: ace8b4932495c404bb0a49b8cad60970,
         type: 3}
       propertyPath: m_Pivot.x
@@ -914,6 +919,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4692088681316005328, guid: ace8b4932495c404bb0a49b8cad60970,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 463ce9393bdcef045978f5c1221c6e68,
+        type: 3}
+    - target: {fileID: 4989853324580521027, guid: ace8b4932495c404bb0a49b8cad60970,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d2d360768e412874ebbd522d683bdb33,
+        type: 3}
     - target: {fileID: 6417491424387195019, guid: ace8b4932495c404bb0a49b8cad60970,
         type: 3}
       propertyPath: m_Camera
@@ -924,6 +941,18 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 7622900261545810372, guid: ace8b4932495c404bb0a49b8cad60970,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5271ab93a949ca94fb4339babd1638f5,
+        type: 3}
+    - target: {fileID: 7920665733590132823, guid: ace8b4932495c404bb0a49b8cad60970,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d2d360768e412874ebbd522d683bdb33,
+        type: 3}
     - target: {fileID: 8548152865922622122, guid: ace8b4932495c404bb0a49b8cad60970,
         type: 3}
       propertyPath: m_Name
