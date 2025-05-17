@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8966954244186562999}
   - component: {fileID: 1570314155919936080}
   - component: {fileID: 2963636590198350877}
+  - component: {fileID: 4713243031050353386}
+  - component: {fileID: 3636984666963098453}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -46,6 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b88586276aa1b94ea763e16852bc3d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dateManager: {fileID: 0}
+  _resourceManager: {fileID: 0}
 --- !u!114 &1570314155919936080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,10 +74,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f076b34b2372d940af3d44f843faa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DateText: {fileID: 0}
   CurrentDate: 'Spring,  Year: 1,  Day: 1'
-  WeekDuration: 10
+  CurrentDay: 1
+  CurrentYear: 1
+  DayDuration: 5
   Seasons:
   - Spring
   - Summer
   - Fall
   - Winter
+  CurrentSeason: 0
+  SeasonsDuration: 90
+--- !u!114 &4713243031050353386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7506103052199140883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc9c9c9af306e94b8818a1e9cfec5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Water: 0
+  MaxWater: 0
+  Energy: 0
+  MaxEnergy: 0
+  Phosphorus: 20
+  Potassium: 20
+  Nitrogen: 20
+  TertiaryResources: 5
+--- !u!114 &3636984666963098453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7506103052199140883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daaafb5967e80d841821fc12ca35b230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TreeHealth: 100
+  TreeHealthObj: {fileID: 0}
+  TreeHealthObjFill: {fileID: 0}

@@ -6,21 +6,40 @@ public class ResourceManager : MonoBehaviour
 {
     //primary Resources
     [SerializeField] int Water;
-    [SerializeField] GameObject WaterObjBackGround;
-    [SerializeField] GameObject WaterObjIcon;
+    public int MaxWater;
     [SerializeField] int Energy;
-    [SerializeField] GameObject EnergyObjBackGround;
-    [SerializeField] GameObject EnergyObjIcon;
+    public int MaxEnergy;
 
     //Secondary Resources
     [SerializeField] int Phosphorus;
-    [SerializeField] GameObject PhosphorusObj;
     [SerializeField] int Potassium;
-    [SerializeField] GameObject PotassiumObj;
     [SerializeField] int Nitrogen;
-    [SerializeField] GameObject NitrogenObj;
     [SerializeField] int TertiaryResources;
-    [SerializeField] GameObject TertiaryResourcesObj;
+
+    public int WaterLevel()
+    {
+        return Water;
+    }
+    public int EnergyLevel()
+    {
+        return Energy;
+    }
+    public int PhosphorusLevel()
+    {
+        return Phosphorus;
+    }
+    public int PotassiumLevel()
+    {
+        return Potassium;
+    }
+    public int NitrogenLevel()
+    {
+        return Nitrogen;
+    }
+    public int TertiaryResourcesLevel()
+    {
+        return TertiaryResources;
+    }
 
     public void ChangeWater(int water)
     {

@@ -14,8 +14,6 @@ public class DateManager : MonoBehaviour
     [SerializeField] int CurrentSeason = 0;
     [SerializeField] int SeasonsDuration = 90;
 
-
-
     private void Start()
     {
         StartCoroutine(AdvanceDate());

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9222950377057489368}
   - component: {fileID: 2854255169344911086}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Phosphorus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 7573180828843283255}
   - component: {fileID: 3809932461927087799}
   m_Layer: 5
-  m_Name: Text (TMP) (3)
+  m_Name: Nitrogen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 8348900823316319407}
   - component: {fileID: 8229293755751920556}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: Tertiary Resources
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -493,6 +493,7 @@ GameObject:
   - component: {fileID: 6417491424387195019}
   - component: {fileID: 3750532564156144699}
   - component: {fileID: 5780032548520910031}
+  - component: {fileID: 2693824563927918812}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -587,6 +588,28 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &2693824563927918812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548152865922622122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d971e513bac274693bae1696865d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterObjBackGround: {fileID: 332277612701875667}
+  WaterObjIcon: {fileID: 5002000905023438914}
+  WaterObjNum: {fileID: 5318427200727400092}
+  EnergyObjBackGround: {fileID: 5920681611641604895}
+  EnergyObjIcon: {fileID: 1431209438079350414}
+  EnergyObjNum: {fileID: 2267801456081668176}
+  PhosphorusObj: {fileID: 1608765517183648644}
+  PotassiumObj: {fileID: 9006205152708321255}
+  NitrogenObj: {fileID: 5317108376646687384}
+  TertiaryResourcesObj: {fileID: 7778867427933497147}
 --- !u!1 &8985669988924170244
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +756,7 @@ GameObject:
   - component: {fileID: 6795052544308059008}
   - component: {fileID: 4783089504738127683}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Potassium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1011,9 +1034,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d6a1b61dbdf92242b7766da25208718, type: 3}
+--- !u!1 &332277612701875667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1293881577034169184, guid: 7d6a1b61dbdf92242b7766da25208718,
+    type: 3}
+  m_PrefabInstance: {fileID: 1542683851265132211}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4349741608469568918 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2969512868031191845, guid: 7d6a1b61dbdf92242b7766da25208718,
+    type: 3}
+  m_PrefabInstance: {fileID: 1542683851265132211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5002000905023438914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5765200813936412401, guid: 7d6a1b61dbdf92242b7766da25208718,
+    type: 3}
+  m_PrefabInstance: {fileID: 1542683851265132211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5318427200727400092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6676146189072758831, guid: 7d6a1b61dbdf92242b7766da25208718,
     type: 3}
   m_PrefabInstance: {fileID: 1542683851265132211}
   m_PrefabAsset: {fileID: 0}
@@ -1337,6 +1378,24 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d6a1b61dbdf92242b7766da25208718, type: 3}
+--- !u!1 &1431209438079350414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5765200813936412401, guid: 7d6a1b61dbdf92242b7766da25208718,
+    type: 3}
+  m_PrefabInstance: {fileID: 4890547451278061695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2267801456081668176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6676146189072758831, guid: 7d6a1b61dbdf92242b7766da25208718,
+    type: 3}
+  m_PrefabInstance: {fileID: 4890547451278061695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5920681611641604895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1293881577034169184, guid: 7d6a1b61dbdf92242b7766da25208718,
+    type: 3}
+  m_PrefabInstance: {fileID: 4890547451278061695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7704360192245082970 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2969512868031191845, guid: 7d6a1b61dbdf92242b7766da25208718,
