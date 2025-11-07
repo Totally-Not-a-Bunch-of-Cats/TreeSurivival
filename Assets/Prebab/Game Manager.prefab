@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2963636590198350877}
   - component: {fileID: 4713243031050353386}
   - component: {fileID: 3636984666963098453}
+  - component: {fileID: 431746237379192865}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -50,6 +51,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dateManager: {fileID: 0}
   _resourceManager: {fileID: 0}
+  _treeManager: {fileID: 0}
+  _eventManager: {fileID: 0}
 --- !u!114 &1570314155919936080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,5 +122,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TreeHealth: 100
-  TreeHealthObj: {fileID: 0}
-  TreeHealthObjFill: {fileID: 0}
+  Trunk: {fileID: 0}
+--- !u!114 &431746237379192865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7506103052199140883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5003a66404892804a8b5c99b361579a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventWaitTime: 60
+  BadEventChance: 0
+  StandardEvents: []
+  StartingEvents: []
+  BadEvents: []

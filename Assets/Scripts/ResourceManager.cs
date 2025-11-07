@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class ResourceManager : MonoBehaviour
 {
@@ -41,13 +42,21 @@ public class ResourceManager : MonoBehaviour
         return TertiaryResources;
     }
 
-    public void ChangeWater(int water)
+    public void ChangeWater(float water)
     {
-        Water += water;
+        Water += ((int)water);
+        if(Water > MaxWater)
+        {
+            Water = MaxWater;
+        }
     }
     public void ChangeEnergy(int energy)
     {
-        Energy += energy;
+        Energy += ((int)energy);
+        if(Energy > MaxEnergy)
+        {
+            Energy = MaxEnergy;
+        }
     }
     public void ChangePhosphorus(int phosphorus)
     {

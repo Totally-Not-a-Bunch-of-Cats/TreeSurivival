@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public DateManager _dateManager;
     public ResourceManager _resourceManager;
     public TreeManager _treeManager;
+    public EventManager _eventManager;
 
     private static bool m_ShuttingDown = false;
     private static object m_Lock = new object();

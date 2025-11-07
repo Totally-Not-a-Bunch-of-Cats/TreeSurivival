@@ -6,4 +6,5 @@ public class BranchInfo
 {
     public GameObject BranchObj;
     public int BranchLevel;
+    public float BaseEnergyIncome = .25f;
 }

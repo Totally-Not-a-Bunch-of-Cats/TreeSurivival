@@ -6,4 +6,5 @@ public class RootInfo
 {
     public GameObject RootObj;
     public int RootLevel;
+    public float BaseWaterIncome = .25f;
 }
